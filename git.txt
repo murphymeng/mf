@@ -1,0 +1,24 @@
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+
+git revert 是撤销某次操作，此次操作之前的commit都会被保留
+git reset 是撤销某次提交，但是此次之后的修改都会被退回到暂存区
+
+让工作目录回到上次提交状态
+git reset --hard HEAD
+
+git checkout -- mf.php
+
+git revert HEAD
+git revert HEAD^ 撤销上上次的修改
+
+git log --oneline -1
+
+git log --p -1
+git log --stat -1
+
+git rebase -i HEAD~3
+git commit --amend
+git rebase --continue
