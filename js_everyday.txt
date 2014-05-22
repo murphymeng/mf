@@ -1,0 +1,3 @@
+5/22
+JavaScript中this的工作原理以及注意事项
+http://blog.jobbole.com/67347/

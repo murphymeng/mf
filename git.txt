@@ -22,3 +22,6 @@ git log --stat -1
 git rebase -i HEAD~3
 git commit --amend
 git rebase --continue
+
+git stash
+git stash apply
