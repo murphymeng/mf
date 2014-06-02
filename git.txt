@@ -22,3 +22,11 @@ git log --stat -1
 git rebase -i HEAD~3
 git commit --amend
 git rebase --continue
+
+Create a new repository on the command line:
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/murphymeng/mf.git
+git push -u origin master
